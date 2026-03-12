@@ -1,0 +1,14 @@
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\bin\Debug\net9.0\Csoportmunka.deps.json
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\bin\Debug\net9.0\Csoportmunka.dll
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\bin\Debug\net9.0\Csoportmunka.pdb
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.csproj.AssemblyReference.cache
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Avalonia\Resources.Inputs.cache
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Avalonia\resources
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.AssemblyInfoInputs.cache
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.AssemblyInfo.cs
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.csproj.CoreCompileInputs.cache
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.dll
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\refint\Csoportmunka.dll
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\Csoportmunka.pdb
+C:\Users\doncsecs.donat.jozse\Desktop\csoportmunka\Csoportmunka\Csoportmunka\obj\Debug\net9.0\ref\Csoportmunka.dll
