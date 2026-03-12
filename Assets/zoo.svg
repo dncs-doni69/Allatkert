@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 180" width="400" height="180">
+  <!-- Sky background -->
+  <rect width="400" height="180" fill="#87CEEB"/>
+  <!-- Sun -->
+  <circle cx="360" cy="30" r="25" fill="#FFD700"/>
+  <!-- Clouds -->
+  <ellipse cx="80" cy="30" rx="35" ry="18" fill="white" opacity="0.9"/>
+  <ellipse cx="110" cy="25" rx="30" ry="16" fill="white" opacity="0.9"/>
+  <ellipse cx="55" cy="28" rx="25" ry="14" fill="white" opacity="0.9"/>
+  <ellipse cx="250" cy="40" rx="40" ry="18" fill="white" opacity="0.8"/>
+  <ellipse cx="280" cy="35" rx="32" ry="15" fill="white" opacity="0.8"/>
+  <!-- Ground -->
+  <rect y="130" width="400" height="50" fill="#4CAF50"/>
+  <!-- Fence posts -->
+  <rect x="10" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="50" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="90" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="130" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="170" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="210" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="250" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="290" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="330" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <rect x="370" y="115" width="8" height="40" fill="#8B4513" rx="2"/>
+  <!-- Horizontal fence rails -->
+  <rect x="10" y="120" width="368" height="6" fill="#A0522D" rx="2"/>
+  <rect x="10" y="138" width="368" height="6" fill="#A0522D" rx="2"/>
+  <!-- Elephant body -->
+  <ellipse cx="80" cy="110" rx="35" ry="28" fill="#808080"/>
+  <!-- Elephant head -->
+  <circle cx="108" cy="92" r="20" fill="#808080"/>
+  <!-- Elephant trunk -->
+  <path d="M 118 100 Q 140 110 130 130" stroke="#808080" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- Elephant eye -->
+  <circle cx="115" cy="87" r="3" fill="#333"/>
+  <!-- Elephant ear -->
+  <ellipse cx="92" cy="90" rx="12" ry="16" fill="#909090"/>
+  <!-- Elephant legs -->
+  <rect x="55" y="130" width="12" height="20" fill="#808080" rx="4"/>
+  <rect x="72" y="130" width="12" height="20" fill="#808080" rx="4"/>
+  <rect x="89" y="130" width="12" height="20" fill="#808080" rx="4"/>
+  <!-- Giraffe body -->
+  <rect x="200" y="85" width="30" height="50" fill="#DAA520" rx="5"/>
+  <!-- Giraffe spots -->
+  <circle cx="210" cy="95" r="5" fill="#8B6914" opacity="0.7"/>
+  <circle cx="225" cy="105" r="4" fill="#8B6914" opacity="0.7"/>
+  <circle cx="212" cy="118" r="6" fill="#8B6914" opacity="0.7"/>
+  <!-- Giraffe neck -->
+  <rect x="215" y="35" width="16" height="55" fill="#DAA520" rx="5"/>
+  <!-- Giraffe head -->
+  <ellipse cx="223" cy="28" rx="14" ry="12" fill="#DAA520"/>
+  <!-- Giraffe horns -->
+  <line x1="216" y1="18" x2="216" y2="8" stroke="#8B6914" stroke-width="4" stroke-linecap="round"/>
+  <line x1="230" y1="18" x2="230" y2="8" stroke="#8B6914" stroke-width="4" stroke-linecap="round"/>
+  <!-- Giraffe eye -->
+  <circle cx="230" cy="26" r="3" fill="#333"/>
+  <!-- Giraffe legs -->
+  <rect x="203" y="130" width="8" height="25" fill="#DAA520" rx="3"/>
+  <rect x="218" y="130" width="8" height="25" fill="#DAA520" rx="3"/>
+  <!-- Lion body -->
+  <ellipse cx="320" cy="115" rx="30" ry="22" fill="#D2691E"/>
+  <!-- Lion mane -->
+  <circle cx="346" cy="100" r="22" fill="#8B4513"/>
+  <!-- Lion head -->
+  <circle cx="346" cy="100" r="16" fill="#D2691E"/>
+  <!-- Lion eye -->
+  <circle cx="352" cy="96" r="3" fill="#333"/>
+  <!-- Lion nose -->
+  <circle cx="352" cy="103" r="2" fill="#8B0000"/>
+  <!-- Lion tail -->
+  <path d="M 290 110 Q 275 100 270 90 Q 268 82 275 80" stroke="#D2691E" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="275" cy="77" r="7" fill="#8B4513"/>
+  <!-- Lion legs -->
+  <rect x="298" y="128" width="10" height="18" fill="#D2691E" rx="3"/>
+  <rect x="313" y="128" width="10" height="18" fill="#D2691E" rx="3"/>
+  <!-- Zoo sign -->
+  <rect x="155" y="50" width="80" height="35" fill="#2E8B57" rx="5"/>
+  <text x="195" y="73" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">ZOO</text>
+</svg>
