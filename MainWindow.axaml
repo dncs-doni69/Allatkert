@@ -1,0 +1,124 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:svg="clr-namespace:Avalonia.Svg.Skia;assembly=Avalonia.Svg.Skia"
+        xmlns:models="clr-namespace:Animals.Models"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+        x:Class="Animals.MainWindow"
+        Title="Animals"
+        Width="800" Height="600"
+        MinWidth="600" MinHeight="500">
+
+    <ScrollViewer>
+        <StackPanel Margin="20" Spacing="12">
+
+            <!-- Header Section -->
+            <TextBlock Text="Animals"
+                       FontSize="36"
+                       FontWeight="Bold"
+                       HorizontalAlignment="Center"
+                       Margin="0,10,0,10"/>
+
+            <!-- Zoo Image -->
+            <Border HorizontalAlignment="Center"
+                    CornerRadius="8"
+                    ClipToBounds="True"
+                    Margin="0,0,0,10">
+                <Image Source="{svg:SvgImage avares://Animals/Assets/zoo.svg}"
+                       Width="400" Height="180"
+                       Stretch="Uniform"/>
+            </Border>
+
+            <!-- Input Section -->
+            <Border Background="#F5F5F5"
+                    CornerRadius="8"
+                    Padding="16"
+                    BorderBrush="#CCCCCC"
+                    BorderThickness="1">
+                <StackPanel Spacing="10">
+                    <TextBlock Text="Add New Animal"
+                               FontSize="18"
+                               FontWeight="SemiBold"
+                               Margin="0,0,0,6"/>
+
+                    <Grid ColumnDefinitions="Auto,*,Auto,*" RowDefinitions="Auto,Auto,Auto" RowSpacing="8" ColumnSpacing="10">
+
+                        <!-- Animal Name -->
+                        <TextBlock Grid.Row="0" Grid.Column="0"
+                                   Text="Animal Name:"
+                                   VerticalAlignment="Center"/>
+                        <TextBox Grid.Row="0" Grid.Column="1"
+                                 x:Name="NameTextBox"
+                                 Watermark="Enter animal name"
+                                 VerticalAlignment="Center"/>
+
+                        <!-- Gender -->
+                        <TextBlock Grid.Row="0" Grid.Column="2"
+                                   Text="Gender:"
+                                   VerticalAlignment="Center"
+                                   Margin="10,0,0,0"/>
+                        <ComboBox Grid.Row="0" Grid.Column="3"
+                                  x:Name="GenderComboBox"
+                                  PlaceholderText="Select gender"
+                                  HorizontalAlignment="Stretch"
+                                  VerticalAlignment="Center">
+                            <ComboBoxItem Content="Male"/>
+                            <ComboBoxItem Content="Female"/>
+                            <ComboBoxItem Content="Unknown"/>
+                        </ComboBox>
+
+                        <!-- Date of Birth -->
+                        <TextBlock Grid.Row="1" Grid.Column="0"
+                                   Text="Date of Birth:"
+                                   VerticalAlignment="Center"/>
+                        <DatePicker Grid.Row="1" Grid.Column="1"
+                                    x:Name="DateOfBirthPicker"
+                                    HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Center"/>
+                    </Grid>
+
+                    <!-- Add Animal Button -->
+                    <Button Content="Add Animal"
+                            x:Name="AddAnimalButton"
+                            HorizontalAlignment="Right"
+                            Click="AddAnimalButton_Click"
+                            Padding="16,8"
+                            FontSize="14"/>
+                </StackPanel>
+            </Border>
+
+            <!-- List Display Section -->
+            <TextBlock Text="Animal List"
+                       FontSize="20"
+                       FontWeight="SemiBold"
+                       Margin="0,8,0,4"/>
+
+            <DataGrid x:Name="AnimalsDataGrid"
+                      AutoGenerateColumns="False"
+                      CanUserSortColumns="True"
+                      CanUserResizeColumns="True"
+                      IsReadOnly="True"
+                      MinHeight="200"
+                      GridLinesVisibility="All"
+                      BorderThickness="1"
+                      BorderBrush="#CCCCCC">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Animal Name"
+                                        Binding="{Binding Name}"
+                                        Width="*"
+                                        x:DataType="models:Animal"/>
+                    <DataGridTextColumn Header="Gender"
+                                        Binding="{Binding Gender}"
+                                        Width="120"
+                                        x:DataType="models:Animal"/>
+                    <DataGridTextColumn Header="Date of Birth"
+                                        Binding="{Binding DateOfBirthDisplay}"
+                                        Width="150"
+                                        x:DataType="models:Animal"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+    </ScrollViewer>
+</Window>
